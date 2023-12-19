@@ -1,0 +1,386 @@
+.mayan-swap {
+    position: relative;
+    line-height: 27px;
+    font-weight: 800;
+    display: inline-block;
+    width: 133px;
+    height: 31px;
+    flex-shrink: 0;
+  }
+  .powered-by-serum {
+    position: relative;
+    font-size: var(--caption-size);
+    line-height: 22px;
+    font-weight: 500;
+    font-family: var(--caption);
+    color: var(--n700);
+    display: none;
+  }
+  .mayan-swap-parent {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .eth {
+    line-height: 30px;
+    display: none;
+  }
+  .div1,
+  .eth,
+  .x5f3beb4d {
+    position: relative;
+    font-weight: 500;
+  }
+  .div1 {
+    line-height: 30px;
+    color: var(--n700);
+    display: none;
+  }
+  .x5f3beb4d {
+    line-height: 24px;
+  }
+  .avatar-icon {
+    position: relative;
+    border-radius: var(--br-71xl);
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .eth-parent,
+  .x5f3beb4d-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .x5f3beb4d-parent {
+    flex-shrink: 0;
+    justify-content: flex-end;
+    gap: var(--gap-5xs);
+  }
+  .eth-parent {
+    border-radius: var(--br-xs);
+    background-color: var(--n300);
+    overflow: hidden;
+    justify-content: flex-start;
+    padding: var(--padding-5xs);
+    gap: var(--gap-base);
+  }
+  .settings-icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .settings-wrapper {
+    border-radius: var(--br-xs);
+    background-color: var(--n300);
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs);
+  }
+  .frame-container,
+  .instance-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .instance-parent {
+    flex-shrink: 0;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    font-size: var(--body-3-size);
+    font-family: var(--caption);
+  }
+  .frame-container {
+    align-self: stretch;
+    justify-content: space-between;
+    padding: var(--padding-9xs) 0;
+    opacity: 0.8;
+  }
+  .eth1 {
+    position: relative;
+    line-height: 27px;
+    font-weight: 500;
+  }
+  .crypto-parent {
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+  }
+  .crypto-parent,
+  .frame-parent3,
+  .instance-wrapper {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .frame-parent3 {
+    border-radius: var(--br-5xl);
+    background-color: var(--n300);
+    justify-content: center;
+    padding: var(--padding-9xs) var(--padding-9xs) var(--padding-9xs)
+      var(--padding-xs);
+    gap: var(--gap-9xs);
+  }
+  .instance-wrapper {
+    justify-content: flex-start;
+  }
+  .frame-parent2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .div2,
+  .div4 {
+    position: relative;
+    font-weight: 500;
+  }
+  .div2 {
+    font-size: var(--body-0-size);
+    line-height: 35px;
+    color: var(--n900);
+  }
+  .div4 {
+    line-height: 27px;
+    display: none;
+  }
+  .parent {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .max {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .max-wrapper {
+    border-radius: var(--br-5xl);
+    background-color: var(--t-white-light);
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-5xs);
+  }
+  .frame-child {
+    position: relative;
+    border-right: 1px solid var(--n600);
+    box-sizing: border-box;
+    width: 1px;
+    height: 17px;
+  }
+  .balance-0 {
+    position: relative;
+    font-size: var(--body-4-size);
+    line-height: 27px;
+    font-weight: 500;
+    font-family: var(--caption);
+    color: var(--n600);
+  }
+  .frame-parent5,
+  .frame-parent6 {
+    display: flex;
+    flex-direction: row;
+  }
+  .frame-parent6 {
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+    font-size: var(--caption-size);
+    color: var(--n700);
+    font-family: var(--font-inter);
+  }
+  .frame-parent5 {
+    align-self: stretch;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 var(--padding-xs);
+    color: var(--n600);
+  }
+  .frame-parent1,
+  .max-container {
+    border-radius: var(--br-5xl);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent1 {
+    align-self: stretch;
+    background-color: var(--color-gray-100);
+    border: 1px solid var(--n300);
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-base);
+    gap: var(--gap-base);
+  }
+  .max-container {
+    background-color: var(--t-white-light);
+    flex-shrink: 0;
+    display: none;
+    flex-direction: row;
+    padding: 0 var(--padding-5xs);
+  }
+  .frame-item {
+    position: relative;
+    border-right: 1px solid var(--n600);
+    box-sizing: border-box;
+    width: 1px;
+    height: 17px;
+    display: none;
+  }
+  .instance-group {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0.5px;
+    left: -0.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .arrow-icon {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .arrow-wrapper {
+    position: absolute;
+    top: calc(50% - 13px);
+    left: calc(50% - 13px);
+    border-radius: 8px;
+    background-color: var(--n100);
+    border: 1px solid var(--n500);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs);
+  }
+  .frame-div {
+    align-self: stretch;
+    position: relative;
+    height: 244px;
+    font-size: var(--body-4-size);
+    font-family: var(--caption);
+  }
+  .frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    font-family: var(--font-inter);
+  }
+  .eth-00984 {
+    position: relative;
+    line-height: 30px;
+    font-weight: 500;
+  }
+  .fee-2252-parent,
+  .swap-info-touchpoint {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .fee-2252-parent {
+    flex-shrink: 0;
+    justify-content: flex-end;
+    gap: var(--gap-5xs);
+    color: var(--n700);
+  }
+  .swap-info-touchpoint {
+    align-self: stretch;
+    border-radius: var(--br-xs);
+    border: 1px solid var(--n500);
+    justify-content: space-between;
+    padding: var(--padding-xs);
+    font-size: var(--body-3-size);
+  }
+  .blank-icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+    display: none;
+  }
+  .text {
+    position: relative;
+    line-height: 27px;
+  }
+  .button {
+    align-self: stretch;
+    border-radius: var(--br-21xl);
+    background: linear-gradient(180deg, #2f98f9, #2f5bf9);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xs) var(--padding-9xl);
+    gap: var(--gap-3xs);
+    font-size: var(--body-2-bold-size);
+  }
+  .frame-parent,
+  .inner {
+    width: 360px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .frame-parent {
+    background: linear-gradient(130.38deg, #535884, #000102);
+    border: 1px solid var(--n600);
+    padding: var(--padding-base) var(--padding-base) var(--padding-5xl);
+    gap: var(--gap-base);
+  }
+  .inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--n000);
+    padding: 0 0 var(--padding-5xl);
+  }
+
+  
+  .div {
+    position: relative;
+    background: linear-gradient(-64.48deg, #161616, #0b061c);
+    width: 360px;
+    height: 640px;
+    margin-left: 150px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: var(--n900);
+    font-family: var(--caption);
+  }
+
+  
